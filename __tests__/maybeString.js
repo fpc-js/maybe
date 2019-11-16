@@ -1,0 +1,20 @@
+import { Nothing, Just, maybeString } from '../src';
+import * as test from '../test-utils';
+
+test._nan(maybeString, Nothing);
+test._plusInfinity(maybeString, Nothing);
+test._minusInfinity(maybeString, Nothing);
+test._undefined(maybeString, Nothing);
+test._null(maybeString, Nothing);
+test._true(maybeString, Nothing);
+test._false(maybeString, Nothing);
+test._function(maybeString, Nothing);
+test._number(maybeString, Nothing);
+test._object(maybeString, Nothing);
+test._string(maybeString, Just);
+test._symbol(maybeString, Nothing);
+test._integer(maybeString, Nothing);
+test._array(maybeString, Nothing);
+test._typedArray(maybeString, Nothing);
+test._map(maybeString, Nothing);
+test._set(maybeString, Nothing);

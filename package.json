@@ -1,0 +1,58 @@
+{
+  "name": "@fpc/maybe",
+  "description": "Maybe type for modern javascript",
+  "version": "0.0.1",
+  "author": "Emiliano Bovetti <emiliano.bovetti@gmail.com>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "functional",
+    "collection",
+    "maybe",
+    "fpc",
+    "fp"
+  ],
+  "main": "./src/index",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpc-js/maybe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fpc-js/maybe/issues"
+  },
+  "release": {
+    "branch": "master",
+    "prepare": [
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "src/*.js"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  },
+  "dependencies": {
+    "@fpc/types": "^0.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@semantic-release/git": "^7.0.18",
+    "babel-jest": "^24.9.0",
+    "coveralls": "^3.0.7",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "semantic-release": "^15.13.30"
+  }
+}
