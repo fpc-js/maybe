@@ -1,0 +1,20 @@
+import { Nothing, Just, maybeIterable } from '../src';
+import * as test from '../test-utils';
+
+test._nan(maybeIterable, Nothing);
+test._plusInfinity(maybeIterable, Nothing);
+test._minusInfinity(maybeIterable, Nothing);
+test._undefined(maybeIterable, Nothing);
+test._null(maybeIterable, Nothing);
+test._true(maybeIterable, Nothing);
+test._false(maybeIterable, Nothing);
+test._function(maybeIterable, Nothing);
+test._number(maybeIterable, Nothing);
+test._object(maybeIterable, Nothing);
+test._string(maybeIterable, Just);
+test._symbol(maybeIterable, Nothing);
+test._integer(maybeIterable, Nothing);
+test._array(maybeIterable, Just);
+test._typedArray(maybeIterable, Just);
+test._map(maybeIterable, Just);
+test._set(maybeIterable, Just);

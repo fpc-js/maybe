@@ -1,0 +1,20 @@
+import { Nothing, Just, maybeArray } from '../src';
+import * as test from '../test-utils';
+
+test._nan(maybeArray, Nothing);
+test._plusInfinity(maybeArray, Nothing);
+test._minusInfinity(maybeArray, Nothing);
+test._undefined(maybeArray, Nothing);
+test._null(maybeArray, Nothing);
+test._true(maybeArray, Nothing);
+test._false(maybeArray, Nothing);
+test._function(maybeArray, Nothing);
+test._number(maybeArray, Nothing);
+test._object(maybeArray, Nothing);
+test._string(maybeArray, Nothing);
+test._symbol(maybeArray, Nothing);
+test._integer(maybeArray, Nothing);
+test._array(maybeArray, Just);
+test._typedArray(maybeArray, Nothing);
+test._map(maybeArray, Nothing);
+test._set(maybeArray, Nothing);
