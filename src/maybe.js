@@ -1,13 +1,14 @@
 /* global Symbol */
 
 /* eslint-disable-next-line func-style */
-function Ctor () {}
+function Ctor (props) {
+  /* eslint-disable-next-line guard-for-in */
+  for (const key in props) {
+    this[key] = props[key];
+  }
+}
 
 Ctor.prototype = {
-  isEmpty: true,
-
-  nonEmpty: false,
-
   get (e) {
     throw e instanceof Error ? e : new Error('Trying to get value of Nothing');
   },
@@ -56,7 +57,7 @@ Ctor.prototype = {
   },
 };
 
-export const Nothing = new Ctor();
+export const Nothing = new Ctor({ isEmpty: true, nonEmpty: false });
 
 /* eslint-disable-next-line func-style */
 export function Just (val) {
@@ -67,9 +68,7 @@ export function Just (val) {
   }
 }
 
-Just.prototype = new Ctor();
-Just.prototype.isEmpty = false;
-Just.prototype.nonEmpty = true;
+Just.prototype = new Ctor({ isEmpty: false, nonEmpty: true });
 
 export const Maybe = val => (
   val == null ? Nothing : val instanceof Maybe ? val : new Just(val)
