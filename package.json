@@ -1,7 +1,7 @@
 {
   "name": "@fpc/maybe",
   "description": "Maybe type for modern javascript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Emiliano Bovetti <emiliano.bovetti@gmail.com>",
   "license": "GPL-3.0",
   "keywords": [
@@ -11,6 +11,7 @@
     "fpc",
     "fp"
   ],
+  "type": "module",
   "main": "./src/index",
   "scripts": {
     "test": "jest",
