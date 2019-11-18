@@ -15,8 +15,7 @@
   "main": "./src/index",
   "scripts": {
     "test": "jest",
-    "lint": "eslint .",
-    "release": "semantic-release"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -50,11 +49,10 @@
     "@babel/core": "^7.7.2",
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.7.1",
-    "@semantic-release/git": "^7.0.18",
+    "@babel/runtime": "^7.7.2",
     "babel-jest": "^24.9.0",
     "coveralls": "^3.0.7",
     "eslint": "^6.3.0",
-    "jest": "^24.9.0",
-    "semantic-release": "^15.13.30"
+    "jest": "^24.9.0"
   }
 }
