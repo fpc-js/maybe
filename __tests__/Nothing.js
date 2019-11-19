@@ -86,9 +86,8 @@ test('Nothing.toString() = ""', () =>
   expect(Nothing.toString()).toBe('')
 );
 
-test('const [value] = Nothing throws an error', () =>
-  expect(() => {
-    /* eslint-disable-next-line no-unused-vars */
-    const [value] = Nothing;
-  }).toThrow(defaultError)
-);
+test('const [value] = Nothing gives undefined', () => {
+  const [value] = Nothing;
+
+  expect(value).toBe(undefined);
+});

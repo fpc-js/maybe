@@ -46,7 +46,9 @@ Ctor.prototype = {
   },
 
   *[Symbol.iterator] () {
-    yield this.get();
+    if (this.nonEmpty) {
+      yield this.get();
+    }
   },
 };
 
