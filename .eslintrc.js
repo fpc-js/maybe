@@ -12,7 +12,7 @@ module.exports = {
     'shared-node-browser': true,
   },
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2018,
     sourceType: 'module',
   },
   rules: {
@@ -35,7 +35,15 @@ module.exports = {
     'block-spacing': [error, 'always'],
     'brace-style': [error, '1tbs'],
     'capitalized-comments': off,
-    'comma-dangle': [error, 'always-multiline'],
+    'comma-dangle': [
+      error, {
+        'arrays': 'always-multiline',
+        'objects': 'always-multiline',
+        'imports': 'always-multiline',
+        'exports': 'always-multiline',
+        'functions': 'never',
+      },
+    ],
     'computed-property-spacing': [error, 'never'],
     'consistent-this': [error, 'that'],
     'func-call-spacing': [error, 'never'],

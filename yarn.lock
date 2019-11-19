@@ -675,10 +675,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@fpc/types@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@fpc/types/-/types-0.0.3.tgz#466800f7cb8932bac230f8bba73a2c5fcb774b83"
-  integrity sha512-VLhB3bG8bpyitu1if8z89iClKRawCKjBDSN9S6CKb8TSj3v7YzciNB1cECcxHw4noG1jNi4ogcbN8N5sw9nr5g==
+"@fpc/types@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@fpc/types/-/types-0.0.6.tgz#9b5be25d6c9a71e60daccb5f8f04d63ccd833448"
+  integrity sha512-qHQFZd6o7FdhCb/olIkvuBBDXS8JraSpIUWomPDmTHCUy+CBqlhccWK8/RMNBxjAjZTuqsK0uebuC6yY84jzHg==
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
