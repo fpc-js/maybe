@@ -1,7 +1,7 @@
 {
   "name": "@fpc/maybe",
   "description": "Maybe type for modern javascript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Emiliano Bovetti <emiliano.bovetti@gmail.com>",
   "license": "GPL-3.0",
   "keywords": [
@@ -16,6 +16,22 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint ."
+  },
+  "jest": {
+    "transform": {
+      "^.*\\.js$": "<rootDir>/jest-transform.cjs"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!@fpc)"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime"
+    ]
   },
   "repository": {
     "type": "git",
@@ -43,16 +59,15 @@
     ]
   },
   "dependencies": {
-    "@fpc/types": "^0.0.6"
+    "@fpc/types": "^0.0.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/plugin-transform-runtime": "^7.6.2",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/runtime": "^7.7.2",
-    "babel-jest": "^24.9.0",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
     "coveralls": "^3.0.7",
-    "eslint": "^6.3.0",
+    "eslint": "^6.7.0",
     "jest": "^24.9.0"
   }
 }
