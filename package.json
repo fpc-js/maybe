@@ -66,7 +66,7 @@
     "@babel/plugin-transform-runtime": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "@babel/runtime": "^7.7.4",
-    "babel-jest-modules": "^0.0.1",
+    "babel-jest-modules": "^0.0.2",
     "coveralls": "^3.0.7",
     "eslint": "^6.7.0",
     "jest": "^24.9.0"
