@@ -782,10 +782,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@fpc/types@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@fpc/types/-/types-0.0.7.tgz#6e06fb9cfcca65e7dbf3cbabb55ce4de449d8ccb"
-  integrity sha512-qK7RDi23cJi5ijjtVTQ+KGOBgkuGNogdGJd+J/bkoTJHdmPjRns3hHLm9abXdMEB5fOcNeK3xBcW7gEkACDbTw==
+"@fpc/types@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@fpc/types/-/types-0.0.8.tgz#ec04eef3f6a4c1b02ec3914cabec9e1ed858accd"
+  integrity sha512-J6wzo2jDqO8JnabFsUgrCVm5vq0ersKXKn6xY6RK+mpcyhIHw+03z0FbeiRkT4jw7pj/VxN/ZcYjtknUhA1Mjg==
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
