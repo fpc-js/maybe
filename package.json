@@ -1,7 +1,7 @@
 {
   "name": "@fpc/maybe",
   "description": "Maybe type for modern javascript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Emiliano Bovetti <emiliano.bovetti@gmail.com>",
   "license": "GPL-3.0",
   "keywords": [
