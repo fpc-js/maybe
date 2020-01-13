@@ -8,7 +8,7 @@ test._undefined(maybeObject, Nothing);
 test._null(maybeObject, Nothing);
 test._true(maybeObject, Nothing);
 test._false(maybeObject, Nothing);
-test._function(maybeObject, Nothing);
+test._function(maybeObject, Just);
 test._number(maybeObject, Nothing);
 test._object(maybeObject, Just);
 test._string(maybeObject, Nothing);

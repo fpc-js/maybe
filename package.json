@@ -1,7 +1,7 @@
 {
   "name": "@fpc/maybe",
   "description": "Maybe type for modern javascript",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "author": "Emiliano Bovetti <emiliano.bovetti@gmail.com>",
   "license": "GPL-3.0",
   "keywords": [
@@ -62,13 +62,13 @@
     "@fpc/types": "^0.0.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.4",
-    "@babel/plugin-transform-runtime": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "@babel/runtime": "^7.7.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
     "babel-jest-modules": "^0.0.2",
-    "coveralls": "^3.0.7",
-    "eslint": "^6.7.0",
-    "jest": "^24.9.0"
+    "coveralls": "^3.0.11",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
   }
 }
