@@ -1,3 +1,5 @@
+import { isFunction } from '@fpc/types';
+
 /* global Symbol */
 
 /* eslint-disable-next-line func-style */
@@ -33,7 +35,7 @@ Ctor.prototype = {
   },
 
   getOrElse (def) {
-    return this.nonEmpty ? this.get() : typeof def === 'function' ? def() : def;
+    return this.nonEmpty ? this.get() : isFunction(def) ? def() : def;
   },
 
   orElse (def) {

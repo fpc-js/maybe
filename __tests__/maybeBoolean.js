@@ -14,6 +14,7 @@ test._object(maybeBoolean, Nothing);
 test._string(maybeBoolean, Nothing);
 test._symbol(maybeBoolean, Nothing);
 test._integer(maybeBoolean, Nothing);
+test._promise(maybeBoolean, Nothing);
 test._array(maybeBoolean, Nothing);
 test._typedArray(maybeBoolean, Nothing);
 test._map(maybeBoolean, Nothing);

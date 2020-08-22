@@ -1,0 +1,21 @@
+import { Nothing, Just, maybePromise } from '../src';
+import * as test from '../test-utils';
+
+test._nan(maybePromise, Nothing);
+test._plusInfinity(maybePromise, Nothing);
+test._minusInfinity(maybePromise, Nothing);
+test._undefined(maybePromise, Nothing);
+test._null(maybePromise, Nothing);
+test._true(maybePromise, Nothing);
+test._false(maybePromise, Nothing);
+test._function(maybePromise, Nothing);
+test._number(maybePromise, Nothing);
+test._object(maybePromise, Nothing);
+test._string(maybePromise, Nothing);
+test._symbol(maybePromise, Nothing);
+test._integer(maybePromise, Nothing);
+test._promise(maybePromise, Just);
+test._array(maybePromise, Nothing);
+test._typedArray(maybePromise, Nothing);
+test._map(maybePromise, Nothing);
+test._set(maybePromise, Nothing);

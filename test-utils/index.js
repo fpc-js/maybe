@@ -1,6 +1,6 @@
 import { Nothing, Just } from '../src';
 
-/* globals Symbol, Int8Array, Map, Set */
+/* globals Promise, Symbol, Int8Array, Map, Set */
 /* eslint-disable no-magic-numbers */
 
 const testValue = (val, strVal, fn, exp) => {
@@ -60,7 +60,9 @@ export const _symbol = (fn, exp) =>
 export const _integer = (fn, exp) =>
   testValue(0, '0', fn, exp);
 
-/* Array, TypedArray, Map, Set */
+/* Promise, Array, TypedArray, Map, Set */
+export const _promise = (fn, exp) =>
+  testValue(Promise.resolve(0), 'Promise', fn, exp);
 
 export const _array = (fn, exp) =>
   testValue([], '[]', fn, exp);

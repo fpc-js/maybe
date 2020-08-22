@@ -14,6 +14,7 @@ test._object(maybeIterable, Nothing);
 test._string(maybeIterable, Just);
 test._symbol(maybeIterable, Nothing);
 test._integer(maybeIterable, Nothing);
+test._promise(maybeIterable, Nothing);
 test._array(maybeIterable, Just);
 test._typedArray(maybeIterable, Just);
 test._map(maybeIterable, Just);

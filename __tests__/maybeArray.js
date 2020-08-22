@@ -14,6 +14,7 @@ test._object(maybeArray, Nothing);
 test._string(maybeArray, Nothing);
 test._symbol(maybeArray, Nothing);
 test._integer(maybeArray, Nothing);
+test._promise(maybeArray, Nothing);
 test._array(maybeArray, Just);
 test._typedArray(maybeArray, Nothing);
 test._map(maybeArray, Nothing);

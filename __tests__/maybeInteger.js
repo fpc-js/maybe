@@ -14,6 +14,7 @@ test._object(maybeInteger, Nothing);
 test._string(maybeInteger, Nothing);
 test._symbol(maybeInteger, Nothing);
 test._integer(maybeInteger, Just);
+test._promise(maybeInteger, Nothing);
 test._array(maybeInteger, Nothing);
 test._typedArray(maybeInteger, Nothing);
 test._map(maybeInteger, Nothing);
