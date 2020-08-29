@@ -59,7 +59,7 @@
     ]
   },
   "dependencies": {
-    "@fpc/types": "^1.0.0"
+    "@fpc/types": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
@@ -69,6 +69,6 @@
     "babel-jest-modules": "^0.0.2",
     "coveralls": "^3.1.0",
     "eslint": "^7.7.0",
-    "jest": "^26.4.1"
+    "jest": "^26.4.2"
   }
 }
