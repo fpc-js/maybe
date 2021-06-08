@@ -62,13 +62,13 @@
     "@fpc/types": "^1.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.4",
-    "@babel/plugin-transform-runtime": "^7.11.0",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/runtime": "^7.11.2",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/runtime": "^7.14.0",
     "babel-jest-modules": "^0.0.2",
     "coveralls": "^3.1.0",
-    "eslint": "^7.7.0",
-    "jest": "^26.4.2"
+    "eslint": "^7.28.0",
+    "jest": "^27.0.4"
   }
 }
