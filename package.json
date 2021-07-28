@@ -59,7 +59,7 @@
     ]
   },
   "dependencies": {
-    "@fpc/types": "^1.0.1"
+    "@fpc/types": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
