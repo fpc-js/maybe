@@ -1,5 +1,5 @@
-import { Nothing, Just, maybeArray } from '../src';
-import * as test from '../test-utils';
+import { Nothing, Just, maybeArray } from '../src/index.js';
+import * as test from '../test-utils.js';
 
 test._nan(maybeArray, Nothing);
 test._plusInfinity(maybeArray, Nothing);

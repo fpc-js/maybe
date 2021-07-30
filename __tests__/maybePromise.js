@@ -1,5 +1,5 @@
-import { Nothing, Just, maybePromise } from '../src';
-import * as test from '../test-utils';
+import { Nothing, Just, maybePromise } from '../src/index.js';
+import * as test from '../test-utils.js';
 
 test._nan(maybePromise, Nothing);
 test._plusInfinity(maybePromise, Nothing);

@@ -1,5 +1,5 @@
-import { Nothing, Just, maybeIterable } from '../src';
-import * as test from '../test-utils';
+import { Nothing, Just, maybeIterable } from '../src/index.js';
+import * as test from '../test-utils.js';
 
 test._nan(maybeIterable, Nothing);
 test._plusInfinity(maybeIterable, Nothing);

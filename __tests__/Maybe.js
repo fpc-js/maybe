@@ -1,4 +1,4 @@
-import { Maybe, Nothing, Just } from '../src';
+import { Maybe, Nothing, Just } from '../src/index.js';
 
 /* global Symbol */
 

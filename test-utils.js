@@ -1,4 +1,4 @@
-import { Nothing, Just } from '../src';
+import { Nothing, Just } from './src/index.js';
 
 /* globals Promise, Symbol, Int8Array, Map, Set */
 /* eslint-disable no-magic-numbers */
