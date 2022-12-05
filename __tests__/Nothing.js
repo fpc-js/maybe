@@ -1,4 +1,5 @@
 import { Maybe, Nothing, Just } from '../src/index.js';
+import { jest } from '@jest/globals';
 
 const defaultError = new Error('Trying to get value of Nothing');
 

@@ -1,4 +1,5 @@
 import { Maybe, Nothing, Just } from '../src/index.js';
+import { jest } from '@jest/globals';
 
 const just0 = Just(0);
 
